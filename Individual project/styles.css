@@ -1,0 +1,212 @@
+body {
+    background-color: rgb(243, 144, 235, 0.5);
+}
+
+.home {
+    background-image: url("1_rVXGKJSCbdEh5RzTSzzNig.png");
+    background-repeat: no-repeat;
+    background-blend-mode: soft light;
+}
+
+h1 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+h1.heading {
+    top: 0;
+    color: rgb(34, 2, 49);
+    background-color: rgb(243, 144, 235, 0.5);
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu {
+    overflow: hidden;
+    position: fixed;
+    position: sticky;
+    top: 0px;
+    background-color: rgba(243, 144, 235, 0.5);
+    margin-top: 25px;
+
+
+}
+
+.menu a {
+    float: left;
+    display: block;
+    color: rgb(34, 2, 49);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.menu a.active {
+    color: rgb(0, 0, 0);
+    background-color: rgb(219, 60, 140);
+}
+
+.menu a:hover {
+    background-color: rgb(194, 30, 172);
+    color: rgb(0, 0, 0);
+}
+
+#pic {
+    display: flex;
+    justify-content: center;
+
+}
+
+img {
+    margin: 20px;
+}
+
+#pimg {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#p2 {
+    font-size: 200%;
+    background-color: rgb(255, 255, 255, 0.2);
+}
+
+.Workout {
+    background-image: url("W7.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
+
+.Nutrition {
+    background-image: url("W2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
+
+.AboutUs {
+    background-image: url("W4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
+
+.content a {
+    font-size: 30px;
+    color: black;
+
+}
+
+.content a:hover {
+    color: blueviolet;
+}
+
+.content {
+    display: block;
+    background-color: rgb(209, 102, 182, 0.7);
+    height: fit-content;
+    width: fit-content;
+    justify-content: center;
+    line-height: 50px;
+}
+
+.videoContent div {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.videoContent h1 {
+    text-align: center;
+    margin: 20px;
+    font-size: 50px;
+    color: rgba(112, 7, 7, 0.842)
+}
+
+.videoContent h2 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 30px;
+    font-size: 30px;
+    color: rgb(0, 0, 0)
+}
+
+footer {
+    background-color: rgba(155, 54, 146, 0.5);
+    display: flex;
+    gap: 50px;
+    height: 100px;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.w1 {
+    display: flex;
+    gap: 80px;
+    margin: 40px;
+}
+
+#pic1 {
+    position: absolute;
+    margin: 700px 750px;
+
+}
+
+#diet {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+#diet th,
+td {
+    border: 1px solid black
+}
+
+.mainN {
+    margin-top: 300px;
+    padding: 20px;
+    display: block;
+    background-color: rgb(209, 102, 182, 0.7);
+    height: fit-content;
+    width: fit-content;
+    line-height: 50px;
+    font-size: 25px;
+    margin-left: 100px;
+}
+
+.mainN a {
+    font-size: 20px;
+    color: black;
+}
+
+
+.mainN a:hover {
+    color: blueviolet;
+}
+
+#Wpic {
+    position: absolute;
+    margin: 400px 700px;
+}
+
+#Wpic2 {
+    position: absolute;
+    margin: 1100px 700px;
+}
+
+.LCD,
+.MP,
+.N,
+.p {
+    background-color: rgb(220, 20, 60, 0.3);
+    margin: 20px;
+}
